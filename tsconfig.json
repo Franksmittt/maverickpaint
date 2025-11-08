@@ -14,6 +14,7 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "incremental": true,
+    // CRITICAL FIX: Helps TypeScript resolve internal Next.js and React 19 types correctly
     "moduleSuffixes": [".js", ".jsx", ".ts", ".tsx"],
     "plugins": [
       {
