@@ -1,4 +1,4 @@
-// tsconfig.json (Full Corrected Code - Final Compiler Resolution)
+// tsconfig.json (Full Corrected Code - Final Vercel Build Fix)
 {
   "compilerOptions": {
     "target": "ES2017",
@@ -14,8 +14,7 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "incremental": true,
-    // FIX: Added moduleSuffixes for correct ESM/CJS resolution in pnpm environment
-    "moduleSuffixes": [".js", ".jsx", ".ts", ".tsx"], 
+    "moduleSuffixes": [".js", ".jsx", ".ts", ".tsx"],
     "plugins": [
       {
         "name": "next"
