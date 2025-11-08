@@ -1,0 +1,10 @@
+// .vscode/settings.json (Golden File 3)
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.validate": [
+    "javascript", "javascriptreact", "typescript", "typescriptreact"
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
